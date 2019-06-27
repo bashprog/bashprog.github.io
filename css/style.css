@@ -899,7 +899,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .carouselExampleIndicators {
   margin-top: 20px;
-  height: 600px;
+  /* height: 600px; */
   overflow: hidden;
   box-shadow: 0 0 10px 1px #2dc997;
 }
