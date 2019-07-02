@@ -724,7 +724,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio #portfolio-wrapper {
-  padding-right: 15px;
+  /* padding-right: 15px; */
 }
 
 #portfolio #portfolio-flters {
@@ -787,6 +787,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 769px){
+  #portfolio .portfolio-item .details, #portfolio .portfolio-item .service-names {
+    left: 0;
+  }
+}
+
+@media (max-width: 400px){
   #portfolio .portfolio-item img {
     margin-left: -50%;
   }
@@ -992,7 +998,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contact .form input, select, #contact .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1036,4 +1042,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#s-news {
+  padding: 20px 0;
+}
+
+.brand-color {
+  color: #2dc997;
 }
