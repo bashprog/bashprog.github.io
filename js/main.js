@@ -124,7 +124,10 @@ jQuery(document).ready(function ($) {
     delay: 10,
     time: 1000
   });
-
+  setTimeout(() => {
+    $('#s-modal').removeAttr('style');
+    $('#s-modal').removeClass('closed');
+  }, 2000);
   // custom code
   //CloseModal
   $('.close-modal').click(function(){
