@@ -126,5 +126,15 @@ jQuery(document).ready(function ($) {
   });
 
   // custom code
-
+  //CloseModal
+  $('.close-modal').click(function(){
+    $('#s-modal').addClass('closed');
+    setTimeout(() => {$('#s-modal').css("display", "none");}, 300);
+  });
+  //OpenModal
+  $('.open-modal').click(function(){
+    $('#s-modal').removeAttr('style');
+    $('#s-modal').removeClass('closed');
+    console.log(123);
+  });
 });
