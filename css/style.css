@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 26px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header #logo h1 {
-    font-size: 26px;
+    font-size: 18px;
   }
   #header #logo img {
     max-height: 40px;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-fixed {
   background: rgba(52, 59, 64, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 82px;
   transition: all 0.5s;
 }
 

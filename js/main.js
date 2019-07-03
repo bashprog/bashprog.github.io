@@ -138,6 +138,5 @@ jQuery(document).ready(function ($) {
   $('.open-modal').click(function(){
     $('#s-modal').removeAttr('style');
     $('#s-modal').removeClass('closed');
-    console.log(123);
   });
 });
