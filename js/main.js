@@ -124,19 +124,19 @@ jQuery(document).ready(function ($) {
     delay: 10,
     time: 1000
   });
-  setTimeout(() => {
-    $('#s-modal').removeAttr('style');
-    $('#s-modal').removeClass('closed');
-  }, 2000);
-  // custom code
-  //CloseModal
-  $('.close-modal').click(function(){
-    $('#s-modal').addClass('closed');
-    setTimeout(() => {$('#s-modal').css("display", "none");}, 300);
-  });
-  //OpenModal
-  $('.open-modal').click(function(){
-    $('#s-modal').removeAttr('style');
-    $('#s-modal').removeClass('closed');
-  });
+  // setTimeout(() => {
+  //   $('#s-modal').removeAttr('style');
+  //   $('#s-modal').removeClass('closed');
+  // }, 2000);
+  // // custom code
+  // //CloseModal
+  // $('.close-modal').click(function(){
+  //   $('#s-modal').addClass('closed');
+  //   setTimeout(() => {$('#s-modal').css("display", "none");}, 300);
+  // });
+  // //OpenModal
+  // $('.open-modal').click(function(){
+  //   $('#s-modal').removeAttr('style');
+  //   $('#s-modal').removeClass('closed');
+  // });
 });
