@@ -1052,6 +1052,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #2dc997;
 }
 
+.anisimov-desc {
+  font-size: 14px;
+}
+
+@media (max-width: 768px){
+  .anisimov-desc{
+    padding-top: 15px;
+  }
+}
 
 #s-modal {
   position: fixed;
