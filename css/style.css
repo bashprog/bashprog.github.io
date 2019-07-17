@@ -1169,3 +1169,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .part-item img {
   width: 120px;
 }
+
+.anisimov {
+  padding: 20px;
+  border-top: 3px solid #2dc997;
+  border-bottom: 3px solid #2dc997;
+}
